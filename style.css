@@ -1,0 +1,44 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 80vh;
+}
+.img-container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid black;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dot{
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: green;
+}
+.scroll{
+    animation: scroll 2s infinite;
+}
+@keyframes scroll {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+#card{
+    width: 30%;
+}
