@@ -6,6 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #EEE9F0;
+}
 .hero{
     height: 80vh;
 }
@@ -41,4 +44,23 @@
 }
 #card{
     width: 30%;
+}
+@media screen and (max-width: 779px) {
+    .img-container{
+        width: 200px;
+        height: 200px;
+    }
+    #card{
+        width: 100%;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 16px;
+    }
+    
 }
