@@ -10,7 +10,7 @@ body{
     background-color: #EEE9F0;
 }
 .hero{
-    height: 80vh;
+    height: 100%;
 }
 .img-container{
     position: relative;
